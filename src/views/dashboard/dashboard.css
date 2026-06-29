@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background: #0a0f1c;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* TOP BAR */
+.topbar {
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #00d4ff;
+}
+
+/* LAYOUT */
+.erp-layout {
+  padding: 20px;
+}
+
+/* KPI GRID */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+/* KPI CARD */
+.kpi-card {
+  padding: 20px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.kpi-card:hover {
+  transform: translateY(-6px);
+}
+
+.kpi-card h3 {
+  margin: 0;
+  opacity: 0.7;
+}
+
+.kpi-card p {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+/* COLORS */
+.blue { border-left: 4px solid #00d4ff; }
+.gold { border-left: 4px solid #ffcc00; }
+.green { border-left: 4px solid #00ff88; }
+.red { border-left: 4px solid #ff4d4d; }
+
+/* PANEL */
+.panel {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+}
+
+.status {
+  margin-top: 10px;
+  color: #00ff88;
+  font-weight: bold;
+}
+
+/* LOADING */
+.loading {
+  color: #00d4ff;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
